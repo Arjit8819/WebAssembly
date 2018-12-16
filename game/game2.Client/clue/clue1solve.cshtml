@@ -1,0 +1,166 @@
+﻿  @using game2.Shared;
+@page "/clue1/{myvalue}"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+@if (game == null)
+{
+
+    <h5>Loding.....</h5>
+}
+else
+{
+    @if (to && game.status1 == false)
+    {
+
+        <div class="body5 ">
+            <div class="container center">
+            <img src="/css/image/unlock.PNG" />
+
+                <input style="color : white" type="text" bind="@word" />
+                <h5 style="color:lawngreen">There is only one word to UNLOCK the task</h5>
+                <button class="btn waves-effect waves-light" class="btn waves-effect waves-light" type="Submit" onclick="@check">Check</button>
+                <div> <h6 style="color : red">Attempts Remaing : @count</h6>
+                </div>
+            </div>
+           
+        </div>
+    }
+    @if (to && game.status1 == true)
+    {
+        <div class="body10">
+            <div class="container center">
+                <br><br><br><br>
+                <h3 style="color:white">You have examined the clues</h3>
+            </div>
+            <button class="btn waves-effect waves-light" class="btn waves-effect waves-light" type="Submit" onclick="@backf">Back</button>
+        </div>
+    }
+    @if (from)
+    {
+        if (game.clue1 == "Hair")
+        {
+            <div class="container center body10">
+                <h5 style="color:white">
+                    Hair belongs to Natasha Romanoff.
+                    Thor suspects that he was there before the night of murder.
+                    <div><button class="btn waves-effect waves-light"  type="Submit" onclick="@back">Back</button></div>
+                </h5>
+            </div>
+
+        }
+        else if (game.clue1 == "gun")
+        {
+            <div class="container center body10">
+                <h5 style="color:white">Gun belongs to Bruce Banner as per Captain America's statement.</h5>
+                <button class="btn waves-effect waves-light" onclick="@guess">Guess</button>
+                <br><br>
+                <div><button class="btn waves-effect waves-light" type="Submit" onclick="@back">Back</button></div>
+            </div>
+        }
+        else if (game.clue1 == "Mobile")
+        {
+            <div class="container center body10">
+                <h5 style="color:white">Last call recieved was fom Steve</h5>
+                <button class="btn waves-effect waves-light" onclick="@guess">Guess</button>
+                <br><br>
+                <div><button class="btn waves-effect waves-light" type="Submit" onclick="@back">Back</button></div>
+            </div>
+
+        }
+        else if (game.clue1 == "Cartridge")
+        {
+            <div class="container center body10">
+                <h5 style="color:white">Catridge belongs Natasha Romanoff gun which was not found on crime scene.</h5>
+                <button class="btn waves-effect waves-light" onclick="@guess">Guess</button>
+                <br><br>
+                <div><button class="btn waves-effect waves-light" type="Submit" onclick="@back">Back</button></div>
+            </div>
+        }
+        else if (game.clue1 == "glass")
+        {
+            <div class="container center body10">
+                <h5 style="color:white">Fingure prints on glass belongs to Tony Stark.</h5>
+                <button class="btn waves-effect waves-light" onclick="@guess">Guess</button>
+                <br><br>
+                <div><button class="btn waves-effect waves-light" type="Submit" onclick="@back">Back</button></div>
+            </div>
+        }
+    }
+    @if (by)
+    {
+        <div class="container center body10">
+            <h5 style="color:white">
+                Clue tempered Cannot attempt another chance .
+                Guess from remaing clues.
+                <div><button class="btn waves-effect waves-light" type="Submit" onclick="@back">Back</button></div>
+            </h5>
+            </div>
+            }
+            }
+            @functions{
+
+                Game game;
+[Parameter]
+        private String myvalue { get; set; }
+
+        protected override async Task OnInitAsync()
+        {
+            game = await Http.SendJsonAsync<Game>(HttpMethod.Post, "/api/Game/getclue", myvalue);
+
+        }
+
+        String word;
+        Boolean to = true;
+        Boolean from;
+        Boolean by;
+        int count = 3;
+        public void check()
+        {
+            Console.WriteLine(myvalue);
+            if (word == "unlock")
+            {
+                to = false;
+                from = true;
+
+            }
+            else
+            {
+
+                if (count <= 1)
+                {
+                    to = false;
+                    by = true;
+                }
+                else
+                {
+                    count = count - 1;
+                }
+            }
+
+
+        }
+
+        public async void back()
+        {
+            String body = (myvalue + ":1");
+            await Http.SendJsonAsync(HttpMethod.Post, "/api/Game/changestatus", body);
+
+            UriHelper.NavigateTo($"/choose/{myvalue}");
+
+        }
+        public async void backf()
+        {
+
+
+            UriHelper.NavigateTo($"/choose/{myvalue}");
+
+        }
+
+        public void guess()
+        {
+
+            UriHelper.NavigateTo($"/guess/{myvalue}");
+        }
+
+            }

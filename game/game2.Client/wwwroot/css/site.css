@@ -1,0 +1,106 @@
+﻿
+
+.body {
+    background-image: url(https://i0.wp.com/www.mysterytribune.com/wp-content/uploads/2011/12/Special-Enquiry-Detail-The-Hand-That-Feeds_11.jpg?quality=95&ssl=1);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body1 {
+    background-image: url(https://cdn.vox-cdn.com/thumbor/gXm6_SMhC0J45C8hnPLbVYNPYPc=/0x0:1500x844/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/59893285/first_person_police.0.gif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body2 {
+    background-image: url(http://i.imgur.com/NrQlRtE.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body3 {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://thumbs.gfycat.com/FairGrandCuckoo-small.gif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body4 {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://66.media.tumblr.com/02225dba627fcd7be1dbdcd52d6fb603/tumblr_inline_p7ns88DrSJ1sen6h4_250.gif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body4 {
+    background-image: url(https://s3.amazonaws.com/assets.saam.media/files/styles/max_1300x1300/s3/images/2017-08/nutshell_living_room2.jpg?itok=XrWPu3eW);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.body5 {
+    background-image: url(https://sm1.narvii.com/6639/a72d64120e42e9c7f8f9bec19d2b3008895efab6_00.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body6 {
+    background-image: url(https://i.ytimg.com/vi/lOy_WBYMAsE/maxresdefault.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body7 {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://i.makeagif.com/media/2-28-2018/QFk1L_.gif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body8 {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://media.gettyimages.com/vectors/sherlock-holmes-silhouette-detective-symbol-vector-id472377867);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body9 {
+    background-image: url(http://www.conaway.org/2010/backyard/backyard3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body10 {
+    background-image: url(/css/image/black.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.body11 {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(http://gamersunite.s3.amazonaws.com/uploads/criminal-case/1384963626583);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body12 {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/221B_Baker_Street%2C_London_-_Sherlock_Holmes_Museum.jpg/1200px-221B_Baker_Street%2C_London_-_Sherlock_Holmes_Museum.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+

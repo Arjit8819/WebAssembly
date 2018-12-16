@@ -1,0 +1,304 @@
+﻿@using game2.Shared;
+@page "/main/{myvalue}"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+@if (game == null)
+{
+
+    <h4>Loding....</h4>
+}
+else
+{
+    <nav>
+        <div class="nav-wrapper  blue-grey lighten-2">
+            <a href="#" class="brand-logo">Your clues</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><button class="btn btn-primary blue" type="Submit" onclick="@drop1">@game.clue1</button></li>
+                <li><button class="btn btn-primary blue" type="Submit" onclick="@drop2">@game.clue2</button></li>
+                <li><button class="btn btn-primary blue" type="Submit" onclick="@drop3">@game.clue3</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    @if (first)
+    {
+        <div class="body1">
+            <br><br><br><br><br>
+            <div class="center container col-sm-6">
+                <h5 style="color : white">As you were leading to victim's bedroom at the crime scene.Cops showed you victims mobile phone</h5>
+                <span>
+                    <h5 style="color : white">Would you like to ask watson to keep the Phone as clue and move forward. </h5>
+                    <button class="btn waves-effect waves-light" type="Submit" onclick="@getphone">Keep</button>
+                    <h5 style="color:red">@phoneString</h5>
+                </span>
+                <span>
+                    <h5 style="color: white">
+                        Tell him he is doing a great job and move forward
+                    </h5>
+                    <button class="btn waves-effect waves-light" type="Submit" onclick="@forward">move forward</button>
+                </span>
+
+            </div>
+        </div>
+    }
+    @if (second)
+    {
+        <div class="body">
+            <br><br><br><br><br>
+            <div class="center container col-sm-6">
+                <span>
+                    <h5 style="color : white">
+                        You have reached the victims bedroom you see dead body lying on the floor.
+                        At first site it seemed like a suicide but you are sherlock you dont believe what you see.
+                        You started looking around the room to finds as many clues as you can.<br>
+                        <center>
+                        <button class="btn waves-effect waves-light" type="submit" onclick="@checkroom">Start Looking</button></center>
+                    </h5>
+                </span>
+            </div>
+        </div>
+    }
+    @if (third)
+    {   <div class="body8">
+    <br><br><br><br><br>
+
+    <div class="center container col-sm-6 ">
+        <span>
+            <h5 style="color:white">
+                After Searching for a while you found two possible clues.
+                You could keep them or move forward by clicking Proceed button
+            </h5>
+            <h5 style="color:white">You see Cartridge of the bullet shot.</h5>
+            <button class="btn waves-effect waves-light" type="submit" onclick="@getCartridge">Keep the Cartridge</button>
+            <h5 style="color:red">@carString</h5>
+            <h5 style="color:white">You found hair that are very different from victim's hair.</h5>
+            <button class="btn waves-effect waves-light" type="submit" onclick="@getHair">Keep the hair</button>
+            <h5 style="color:red">@hairString</h5>
+        </span>
+        <button class="btn waves-effect waves-light" type="submit" onclick="@fourthcall">Proceed</button>
+    </div>
+</div>
+    }
+    @if (fourth)
+    {
+        <div class="body8">
+            <br><br><br><br><br>
+
+            <div class="center container col-sm-6">
+                <span><h5 style="color:white">Your search in the room is done. </h5></span>
+                <span>
+                    <h5 style="color:white"> Go to Kitchen to find another clue.</h5>
+                    <button class="btn waves-effect waves-light" type="submit" onclick="@gokitchen">Kitchen</button>
+                </span>
+                <span>
+                    <h5 style="color:white">Go to backyard to find a clue.</h5>
+                    <button class="btn waves-effect waves-light" type="submit" onclick="@gobackyard">Backyard</button>
+                </span>
+            </div>
+        </div>
+    }
+    @if (kitchen)
+    {
+        <div class="body11">
+            <br><br><br><br><br>
+            <h5 style="color:white">You are in the kitchen. There are no clues.</h5>
+            <button class="btn waves-effect waves-light" type="submit" onclick="@backhome">Back</button>
+            <button class="btn waves-effect waves-light" type="submit" onclick="@proceed">Proceed</button>
+        </div>
+    }
+    @if (backyard)
+    {
+        <div class="body9">
+            <div class="center container col-sm-6">
+                <h5 style="color:white">You are in the backyard. You have found a gun </h5>
+                <button class="btn waves-effect waves-light" type="submit" onclick="@getgun">Get gun</button>
+                <h5 style="color:red">@gunString</h5>
+                <button class="btn waves-effect waves-light" type="submit" onclick="@proceed">Proceed</button>
+            </div>
+        </div>
+    }
+    @if (lab)
+    {
+        <div class="body3">
+            <br><br><br><br><br>
+
+            <div class="center container col-sm-6">
+                <h5 style="color:white">
+                    You have collected all your clues now head back to your laboratory and research
+                    them to find out who is the criminal.
+                </h5>
+                <button class="btn waves-effect waves-light" type="submit" onclick="@labo">Go to Laboratory</button>
+            </div>
+            </div>
+
+            }
+            }
+            @functions{
+                String clues;
+                String finalclue;
+                Boolean test;
+                Boolean first = true;
+                Boolean second;
+                Boolean third;
+                Boolean fourth;
+                Boolean kitchen;
+                Boolean backyard;
+                Boolean lab;
+                String gunString;
+                int guncount;
+                String hairString;
+                int haircount;
+                String phoneString;
+                int phonecount;
+                String carString;
+                int carcount;
+                Game game;
+
+
+                [Parameter]
+                private String myvalue { get; set; }
+
+                protected override async Task OnInitAsync()
+                {
+                    game = await Http.SendJsonAsync<Game>(HttpMethod.Post, "/api/Game/getclue", myvalue);
+
+                }
+
+                public async void getphone()
+                {
+                    phonecount++;
+                    String body = (myvalue + ":Mobile");
+                    await Http.SendJsonAsync(HttpMethod.Post, "/api/Game/putclue", body);
+
+                    game = await Http.SendJsonAsync<Game>(HttpMethod.Post, "/api/Game/getclue", myvalue);
+
+                }
+
+                public void backhome() {
+
+                    kitchen = false;
+                    fourth = true;
+
+                }
+
+                public async void getHair()
+                {
+                    if (haircount < 1)
+                    {
+                        haircount++;
+                        String body = (myvalue + ":Hair");
+                        await Http.SendJsonAsync(HttpMethod.Post, "/api/Game/putclue", body);
+
+                        game = await Http.SendJsonAsync<Game>(HttpMethod.Post, "/api/Game/getclue", myvalue);
+
+                    }
+                    else
+                    {
+                        hairString = "Hair already taken";
+                    }
+                }
+                public async void getCartridge()
+                {
+                    if (carcount < 1)
+                    {
+                        carcount++;
+                        String body = (myvalue + ":Cartridge");
+                        await Http.SendJsonAsync(HttpMethod.Post, "/api/Game/putclue", body);
+
+                        game = await Http.SendJsonAsync<Game>(HttpMethod.Post, "/api/Game/getclue", myvalue);
+                    }
+                    else
+                    {
+                        carString = "Cartridge already taken";
+                    }
+                }
+
+                public async void getgun()
+                {
+                    if (guncount < 1)
+                    {
+                        guncount++;
+                        String body = (myvalue + ":gun");
+                        await Http.SendJsonAsync(HttpMethod.Post, "/api/Game/putclue", body);
+                        game = await Http.SendJsonAsync<Game>(HttpMethod.Post, "/api/Game/getclue", myvalue);
+                    }
+                    else
+                    {
+                        gunString = "gun already taken";
+                    }
+                }
+
+                public void proceed()
+                {
+                    kitchen = false;
+                    backyard = false;
+
+                    lab = true;
+
+                }
+                public void labo()
+                {
+
+                    UriHelper.NavigateTo($"/choose/{myvalue}");
+                }
+                public void checkroom()
+                {
+                    second = false;
+                    third = true;
+
+                }
+                public void gokitchen()
+                {
+                    fourth = false;
+                    kitchen = true;
+
+                }
+                public void gobackyard()
+                {
+                    fourth = false;
+                    backyard = true;
+
+                }
+                public void forward()
+                {
+                    first = false;
+                    second = true;
+
+                }
+                public void fourthcall()
+                {
+
+                    third = false;
+                    fourth = true;
+                }
+                public async void continu()
+                {
+                    string str = finalclue.Substring(1);
+                    string body = (myvalue + ":" + str);
+                    Console.WriteLine(body);
+                    await Http.SendJsonAsync(HttpMethod.Post, "/api/Game/putclue", body);
+                    UriHelper.NavigateTo($"/choose/{myvalue}");
+                }
+                public async void drop1()
+                {
+                    String body = (myvalue + ":1");
+                    await Http.SendJsonAsync(HttpMethod.Post, "/api/Game/deleteclue", body);
+                    game = await Http.SendJsonAsync<Game>(HttpMethod.Post, "/api/Game/getclue", myvalue);
+
+                }
+                public async void drop2()
+                {
+                    String body = (myvalue + ":2");
+                    await Http.SendJsonAsync(HttpMethod.Post, "/api/Game/deleteclue", body);
+                    game = await Http.SendJsonAsync<Game>(HttpMethod.Post, "/api/Game/getclue", myvalue);
+
+                }
+                public async void drop3()
+                {
+                    String body = (myvalue + ":3");
+                    await Http.SendJsonAsync(HttpMethod.Post, "/api/Game/deleteclue", body);
+                    game = await Http.SendJsonAsync<Game>(HttpMethod.Post, "/api/Game/getclue", myvalue);
+
+                }
+            }

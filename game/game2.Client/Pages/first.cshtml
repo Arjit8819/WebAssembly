@@ -1,0 +1,140 @@
+﻿@using game2.Shared;
+@page "/"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+
+@if (to)
+{
+    <div class="body2">
+        <br><br>
+        
+        <br><br><br>
+                <div class="center container col-sm-6">
+                    <img height="80" width="80" src="/css/image/nick.jpg"><h4 style="color:white">
+                        Nick fury called you to
+                        solve a murder case at Avenger Headquater.
+                    </h4>
+                    <br><br>
+                    <input style="color:white" type="text" bind="@name" />
+                    <button class="btn waves-effect waves-light" type="Submit" onclick="@Proceed">Submit</button>
+                </div>
+    </div>
+}
+@if (from)
+{
+    <div class="body3">
+        <div class="center container col-sm-6">
+            <h5 style="color : white">
+                <br><br>
+                You along with watson are in the cab heading to crime seen.
+                Watson tells you that he didn't carry any bag to get clues from Crime scene.
+                He asks cab drive to return.....
+            </h5>
+
+            <span>
+                <h5 style="color : white">
+                    but you asked to continue to go vist the crime scene as the clues might temper by the time they return.
+                </h5>
+                <button class="btn waves-effect waves-light" type="Submit" onclick="@scene">Go to scene</button>
+            </span>
+            <span>
+                <h5 style="color : white"> Go back to 221B Baker Street and take a bag.</h5>
+                <button class="btn waves-effect waves-light" type="Submit" onclick="@home">Go to Home</button>
+            </span>
+        </div>
+    </div>
+}
+@if (home1)
+{
+ 
+    <div class="body11">
+    <p>You have reached home but now you are an hour late.Cops might have tempered the clues.
+    So the case is now useless to solve.</p>
+    <button onclick="@backnick" type="submit">Back</button>
+   </div>
+    // <button type="submit" onclick="@crime">Go to crime scene</button>
+}
+@if (by)
+{
+    <div class="body4">
+        <br><br><br>
+        <div class="center container col-sm-6">
+            <h5 style="color:white">
+                You have reached the crime scene. You are here at drawing room.
+                But Now you can only pick up three clues with you choose wisely.
+            </h5>
+            <span>
+                <h5 style="color:white">
+                    You see two glasses would you like to pick them as clues or move forward.
+                </h5>
+                <button class="btn waves-effect waves-light" type="Submit" onclick="@getglass">PickUp glasses</button>
+                <button class="btn waves-effect waves-light" type="Submit" onclick="@move">Move Forward</button>
+                <h5 style="color:red">@glassString</h5>
+            </span>
+        </div>
+    </div>
+
+}
+
+@functions{
+
+    String name;
+    Boolean test;
+    Boolean to = true;
+    Boolean from;
+    Boolean by;
+    Boolean home1;
+    int glasscount = 0;
+    String glassString;
+
+    public void move()
+    {
+
+        UriHelper.NavigateTo($"/main/{name}");
+    }
+
+    public async void Proceed()
+    {
+        to = false;
+        from = true;
+
+        String body = (name + ":name");
+        test = await Http.SendJsonAsync<Boolean>(HttpMethod.Post, "/api/Game/SignUp", name);
+
+    }
+
+    public async void getglass()
+    {
+        if (glasscount < 1)
+        {
+            glasscount++;
+            String body = (name + ":glass");
+            await Http.SendJsonAsync(HttpMethod.Post, "/api/Game/putclue", body);
+
+        }
+        else {
+            glassString = "Glass already taken";
+        }
+    }
+
+    public void home()
+    {
+        from = false;
+        home1 = true;
+
+    }
+    public void backnick()
+    {
+        home1 = false;
+        to = true;
+
+    }
+    public void scene()
+    {
+        from = false;
+        by = true;
+
+    }
+
+}

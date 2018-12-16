@@ -1,0 +1,63 @@
+﻿@page "/guess/{myvalue}"
+
+@if (to)
+{
+    <div class="body10">
+        <div class="container center">
+    <input style="color : white" type="text" bind="@ans" />
+    <button class="btn waves-effect waves-light" type="Submit" onclick="@check">Submit</button>
+            </div>
+        </div>
+}
+@if (from)
+{
+
+    <div class="body7">
+        <div class="container center">
+        <h4 style="color:white">
+            You are smart enough and deserve to be a Detective like Sherlock!!!
+            Now go and catch her she is running, you gotta run faster...
+            
+        </h4>
+        <h5 style="color : forestgreen">You won</h5>
+            </div>
+    </div>
+}
+@if (by)
+{
+
+    <div class="body10">
+        <center>
+            <h5 style="color :white">Wrong Guess </h5>
+                <h4 style="color : red">You Lost</h4></center>
+    </div>
+}
+@functions{
+
+    Boolean to = true;
+    Boolean from;
+    Boolean by;
+    String ans;
+    [Parameter]
+    private String myvalue { get; set; }
+
+    public void check()
+    {
+
+        //String[] str = ans.Split(" ");
+        if (ans == "natasha romanoff" || ans == "Natasha Romanoff" || ans == "Natasha romanoff")
+        {
+            from = true;
+            to = false;
+
+        }
+        else
+        {
+
+            by = true;
+            to = false;
+        }
+
+    }
+
+}

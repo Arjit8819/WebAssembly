@@ -1,0 +1,73 @@
+﻿@using game2.Shared;
+@page "/choose/{myvalue}"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+
+@if (game == null)
+{
+    <h5>Loding....</h5>
+
+}
+else
+{
+    <div class="body6">
+        <br>
+
+        <center>
+            <div class="center container col-sm-6">
+                
+                <h5 style="color:lawngreen">With your research you found out that these are the prime suspects.</h5>
+                <div class="container">
+                    <div class="row">
+                        <div class="column">
+                            <h6 style="color:white">Tony Stark</h6><img height="100" width="100" src="/css/image/tony.jpg">
+                        </div>
+                        <div class="column">
+                            <h6 style="color:white">Steve Roger</h6><img height="100" width="100" src="/css/image/steve.jpg">
+                        </div>
+                        <div class="column">
+                            <h6 style="color:white">Natasha romanoff</h6><img height="100" width="100" src="/css/image/natasha.jpg">
+                        </div>
+                        <div class="column">
+                            <h6 style="color:white">Bruce Banner</h6><img height="100" width="100" src="/css/image/bruce.png">
+                        </div>
+                        <div class="column">
+                            <h6 style="color:white">Peter Parker</h6><img height="100" width="100" src="/css/image/peter.jpg">
+                        </div>
+                    </div>
+
+
+                    <h5 style="color :lawngreen">To guess the criminal</h5>
+                    <button class="btn waves-effect waves-light" onclick="@goguess" type="Submit">Guess</button>
+
+                    <br><br><br><br><br>
+
+                    <NavLink href=@($"/clue1/" + myvalue)><button class="btn waves-effect waves-light" type="Submit">@game.clue1</button></NavLink>
+                    <NavLink href=@($"/clue2/" + myvalue)><button class="btn waves-effect waves-light" type="Submit">@game.clue2</button></NavLink>
+                    <NavLink href=@($"/clue3/" + myvalue)><button class="btn waves-effect waves-light" type="Submit">@game.clue3</button></NavLink>
+                </div>
+                </div>
+        </center>
+    </div>
+    
+}
+@functions
+{
+    [Parameter]
+    private String myvalue { get; set; }
+
+    Game game;
+
+    protected override async Task OnInitAsync()
+    {
+        game = await Http.SendJsonAsync<Game>(HttpMethod.Post, "/api/Game/getclue", myvalue);
+
+    }
+    public void goguess() {
+
+        UriHelper.NavigateTo($"/guess/{myvalue}");
+    }
+
+
+}

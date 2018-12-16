@@ -1,0 +1,83 @@
+﻿@page "/gun/{myvalue}"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+@if (to)
+{
+
+    <h3>hair</h3>
+
+    <img src="/css/image/Lady.jpeg" />
+
+    <input type="text" bind="@word" />
+    <button type="Submit" onclick="@check">Check</button>
+    <div> Attempts Remaing : @count</div>
+}
+@if (from)
+{
+
+    <p>Hair sample belongs to the lady.</p>
+
+    <button onclick="@guess">Guess</button>
+
+
+}
+@if (by)
+{
+
+    <p>
+        Clue tempered Cannot attempt another chance .
+        Guess from remaing clues.
+    </p>
+}
+<div><button type="Submit" onclick="@back">Back</button></div>
+@functions{
+
+    [Parameter]
+    private String myvalue { get; set; }
+
+    String word;
+    Boolean to = true;
+    Boolean from;
+    Boolean by;
+    int count = 3;
+    public void check()
+    {
+
+        if (word == "lady")
+        {
+            to = false;
+            from = true;
+
+        }
+        else
+        {
+
+            if (count <= 1)
+            {
+                to = false;
+                by = true;
+            }
+            else
+            {
+                count = count - 1;
+            }
+        }
+
+
+    }
+
+    public void back()
+    {
+
+        UriHelper.NavigateTo($"/choose/{myvalue}");
+    }
+
+    public void guess()
+    {
+
+        UriHelper.NavigateTo($"/guess/{myvalue}");
+    }
+
+}
+

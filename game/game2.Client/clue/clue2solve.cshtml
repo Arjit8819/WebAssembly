@@ -1,0 +1,175 @@
+﻿@using game2.Shared;
+@page "/clue2/{myvalue}"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+
+@if (game == null)
+{
+
+    <h5>Loding.....</h5>
+}
+else
+{
+    @if (to && game.status2 == false)
+    {
+
+        <div class="body5 container center">
+        
+          
+                <img height="400" width="400" src="/css/image/WhatsApp Image 2018-12-12 at 4.55.27 PM.jpeg" />
+                
+                    <input style ="color : white"type="text" bind="@word" />
+                    <button class="btn waves-effect waves-light" type="Submit" onclick="@check">Check</button>
+                    <div style="color : red"> Attempts Remaing : @count</div>
+            
+            
+        </div>
+    }
+    @if (to && game.status2 == true)
+    {
+        <div class="body10">
+            <div class="container center">
+                <br><br><br><br>
+                <h3 style="color:white">You have examined the clues</h3>
+                <button class="btn waves-effect waves-light" type="Submit" onclick="@backf">Back</button>
+            </div>
+        </div>
+    }
+    @if (from)
+    {
+        if (game.clue2 == "Hair")
+        {
+            <div class="container center body10">
+                <h5 style="color:white">
+                    Hair belongs to Natasha Romanff.
+                    Thor suspects that he was there before the night of murder.
+                    <div><button class="btn waves-effect waves-light" type="Submit" onclick="@back">Back</button></div>
+                </h5>
+            </div>
+
+
+        }
+        else if (game.clue2 == "gun")
+        {
+
+            <div class="container center body10">
+                <h5 style="color:white">Gun belongs to Bruce Banner as per Captain America's statement.</h5>
+                <button class="btn waves-effect waves-light" onclick="@guess">Guess</button>
+                <br><br>
+                <div><button class="btn waves-effect waves-light" type="Submit" onclick="@back">Back</button></div>
+            </div>
+
+        }
+        else if (game.clue2 == "Mobile")
+        {
+
+            <div class="container center body10">
+                <h5 style="color:white">Last call recieved was fom Steve.</h5>
+                <button class="btn waves-effect waves-light" onclick="@guess">Guess</button>
+                <br><br>
+                <div><button class="btn waves-effect waves-light" type="Submit" onclick="@back">Back</button></div>
+            </div>
+
+        }
+        else if (game.clue2 == "Cartridge")
+        {
+
+            <div class="container center body10">
+                <h5 style="color:white">Catridge belongs Natasha romanoff gun which was not found on crime scene.</h5>
+                <button class="btn waves-effect waves-light" onclick="@guess">Guess</button>
+                <br><br>
+                <div><button class="btn waves-effect waves-light" type="Submit" onclick="@back">Back</button></div>
+            </div>
+
+        }
+        else if (game.clue2 == "glass")
+        {
+
+            <div class="container center body10">
+                <h5 style="color:white">Fingure prints on glass belongs to Tony Stark.</h5>
+                <button class="btn waves-effect waves-light" onclick="@guess">Guess</button>
+                <br><br>
+                <div><button class="btn waves-effect waves-light" type="Submit" onclick="@back">Back</button></div>
+            </div>
+
+        }
+
+    }
+    @if (by)
+    {
+        <div class="body10">
+        <h5 style="color:white">
+            Clue tempered Cannot attempt another chance .
+            Guess from remaing clues.
+        </h5>
+        <button class="btn waves-effect waves-light" type="Submit" onclick="@back">Back</button></div>
+    }
+
+}
+@functions{
+
+    [Parameter]
+    private String myvalue { get; set; }
+
+    protected override async Task OnInitAsync()
+    {
+        game = await Http.SendJsonAsync<Game>(HttpMethod.Post, "/api/Game/getclue", myvalue);
+
+    }
+
+
+    String word;
+    Boolean to = true;
+    Boolean from;
+    Boolean by;
+    Game game;
+    int count = 3;
+    public void check()
+    {
+        Console.WriteLine(myvalue);
+        if (word == "042")
+        {
+            to = false;
+            from = true;
+
+        }
+        else
+        {
+
+            if (count <= 1)
+            {
+                to = false;
+                by = true;
+            }
+            else
+            {
+                count = count - 1;
+            }
+        }
+
+
+    }
+
+    public async void back()
+    {
+        String body = (myvalue + ":2");
+        await Http.SendJsonAsync(HttpMethod.Post, "/api/Game/changestatus", body);
+
+        UriHelper.NavigateTo($"/choose/{myvalue}");
+    }
+    public async void backf()
+    {
+
+
+        UriHelper.NavigateTo($"/choose/{myvalue}");
+
+    }
+
+    public void guess()
+    {
+
+        UriHelper.NavigateTo($"/guess/{myvalue}");
+    }
+
+}

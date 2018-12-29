@@ -1,0 +1,113 @@
+﻿
+
+
+.login {
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+   
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+    .form input {
+        font-family: "Robot", sans-serif;
+        outline: 1;
+        background: #f2f2f2;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+
+        font-size: 14px;
+    }
+
+    .form button {
+        font-family: "Robot", sans-serif;
+        text-transform: uppercase;
+        outline: 0;
+        background: #4CAF50;
+        width: 100%;
+        border: 0;
+        padding: 15px;
+        color: #ffffff;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+.register {
+    background: #ffffff;
+    opacity: 0.6;
+}
+
+.body {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://www.bestfreewebresources.com/wp-content/uploads/2013/03/games-hd-wallpaper-12.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body2 {
+    background-image: url(https://weneedfun.com/wp-content/uploads/2015/10/Games-HD-Wallpapers-5.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body1 {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://www.freegreatpicture.com/files/168/16041-hd-games-wallpapers.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body3 {
+    background-image: url(https://i.pinimg.com/originals/1e/cb/22/1ecb222ce7849d3be6353d5c6cdabf36.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.body4 {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(http://pavbca.com/walldb/original/6/4/2/493024.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#selections-area ul.mb-4 li:first-child {
+    background-color: #9d136d;
+    border-color: #9d136d;
+    color: white;
+    position: relative;
+}
+
+#results-area .d-flex button {
+    width: 100px;
+    flex: initial;
+}
+
+#results-area .d-flex .arrow {
+    width: 30px;
+    flex: initial;
+    color: black;
+}
+
+.price {
+    flex: initial;
+    width: 120px;
+    text-align: center;
+}
+
+ul.mb-4 li:first-child {
+    background-color: #9d136d;
+    border-color: #9d136d;
+    color: white;
+    position: relative;
+}

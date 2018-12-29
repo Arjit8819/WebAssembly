@@ -1,0 +1,111 @@
+﻿@using FinalProject.Shared;
+@page "/viewsurvey/{myvalue}"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+@if (items == null)
+{
+
+<h3>Loding..</h3>
+}
+else
+{
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Survey Name</th>
+                <th>Verygood</th>
+                <th>Good</th>
+                <th>Average</th>
+                <th>Bad</th>
+                <th>Verybad</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var use in items)
+            {
+
+                <tr>
+                    <td>@use</td>
+                    <td>
+                        <label>
+                            <input type="checkbox" />
+                            <span></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" />
+                            <span></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" />
+                            <span></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" />
+                            <span></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" />
+                            <span></span>
+                        </label>
+                    </td>
+                </tr>
+
+                Convert();
+
+            }
+        </tbody>
+    </table>
+    <button class="btn waves-effect waves-light" type="submit" onclick="@options">
+        Submit
+        <i class="material-icons right">send</i>
+    </button>
+    <button class="btn waves-effect waves-light" onclick="@back" type="Submit">Back</button>
+</div>
+}
+@functions {
+
+    [Parameter]
+    private String myvalue { get; set; }
+
+    String[] items;
+    Random random = new Random();
+    double newrand;
+
+    protected override async Task OnInitAsync()
+    {
+        int randint = random.Next(7, 19);
+
+        newrand = (double)33 / randint;
+
+        items = await Http.SendJsonAsync<String[]>(HttpMethod.Post, "/api/Login/getsurveylist", myvalue); ;
+
+    }
+
+    public void Convert()
+    {
+
+        int randint = random.Next(7, 19);
+
+        newrand = (double)33 / randint;
+    }
+
+    public void options() {
+    }
+
+    public void back() {
+
+        UriHelper.NavigateTo($"/userarea/{myvalue}");
+    }
+}

@@ -1,0 +1,60 @@
+C:\INFO 6250\Project2\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Client.dll
+C:\INFO 6250\Project2\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Shared.dll
+C:\INFO 6250\Project2\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.csprojAssemblyReference.cache
+C:\INFO 6250\Project2\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.csproj.CoreCompileInputs.cache
+C:\INFO 6250\Project2\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.RazorAssemblyInfo.cache
+C:\INFO 6250\Project2\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.RazorAssemblyInfo.cs
+C:\INFO 6250\Project2\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.AssemblyInfoInputs.cache
+C:\INFO 6250\Project2\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.AssemblyInfo.cs
+C:\INFO 6250\Project2\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.RazorTargetAssemblyInfo.cache
+C:\INFO 6250\Project2\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Client.blazor.config
+C:\INFO 6250\Project2\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.deps.json
+C:\INFO 6250\Project2\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.runtimeconfig.json
+C:\INFO 6250\Project2\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.runtimeconfig.dev.json
+C:\INFO 6250\Project2\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.dll
+C:\INFO 6250\Project2\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.pdb
+C:\INFO 6250\Project2\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Client.pdb
+C:\INFO 6250\Project2\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Shared.pdb
+C:\INFO 6250\Project2\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.csproj.CopyComplete
+C:\INFO 6250\Project2\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.dll
+C:\INFO 6250\Project2\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.pdb
+C:\INFO 6250\Finalproject\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Client.blazor.config
+C:\INFO 6250\Finalproject\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.deps.json
+C:\INFO 6250\Finalproject\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.runtimeconfig.json
+C:\INFO 6250\Finalproject\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.runtimeconfig.dev.json
+C:\INFO 6250\Finalproject\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.pdb
+C:\INFO 6250\Finalproject\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Client.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Shared.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Client.pdb
+C:\INFO 6250\Finalproject\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Shared.pdb
+C:\INFO 6250\Finalproject\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.csprojAssemblyReference.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.csproj.CoreCompileInputs.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.RazorAssemblyInfo.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.RazorAssemblyInfo.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.AssemblyInfoInputs.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.AssemblyInfo.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.RazorTargetAssemblyInfo.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.csproj.CopyComplete
+C:\INFO 6250\Finalproject\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Client.blazor.config
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.deps.json
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.runtimeconfig.json
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.runtimeconfig.dev.json
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Server.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Client.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Shared.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Client.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\bin\Debug\netcoreapp2.1\FinalProject.Shared.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.csprojAssemblyReference.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.csproj.CoreCompileInputs.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.RazorAssemblyInfo.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.RazorAssemblyInfo.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.AssemblyInfoInputs.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.AssemblyInfo.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.RazorTargetAssemblyInfo.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.csproj.CopyComplete
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Server\obj\Debug\netcoreapp2.1\FinalProject.Server.pdb

@@ -1,0 +1,45 @@
+﻿@page "/admin"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+
+@if (to)
+{
+
+<input bind="@name" type="text" placeholder="firstname" />
+<input bind="@password" type="text" placeholder="firstname" />
+<button type="submit" onclick="@login">submit</button>
+<button type="submit" onclick="@shortlist">test</button>
+<h3 style="color : red">@error</h3>
+}
+@if (from) {
+
+    <adminarea />
+}
+
+
+@functions
+{
+    string name;
+    string password;
+    string error;
+    Boolean to = true;
+    Boolean from = false;
+
+    private void login()
+    {
+
+        if (name == "admin" && password == "admin")
+        {
+            to = false;
+            from = true;
+        }
+        else {
+            error = "Please check you credentials";
+
+        }
+    }
+    private void shortlist() {
+
+        UriHelper.NavigateTo("/test");
+
+    }
+}

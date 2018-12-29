@@ -1,0 +1,27 @@
+C:\INFO 6250\Project2\FinalProject.Shared\bin\Debug\netstandard2.0\FinalProject.Shared.deps.json
+C:\INFO 6250\Project2\FinalProject.Shared\bin\Debug\netstandard2.0\FinalProject.Shared.dll
+C:\INFO 6250\Project2\FinalProject.Shared\bin\Debug\netstandard2.0\FinalProject.Shared.pdb
+C:\INFO 6250\Project2\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.csprojAssemblyReference.cache
+C:\INFO 6250\Project2\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.csproj.CoreCompileInputs.cache
+C:\INFO 6250\Project2\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.AssemblyInfoInputs.cache
+C:\INFO 6250\Project2\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.AssemblyInfo.cs
+C:\INFO 6250\Project2\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.dll
+C:\INFO 6250\Project2\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.pdb
+C:\INFO 6250\Finalproject\website\FinalProject.Shared\bin\Debug\netstandard2.0\FinalProject.Shared.deps.json
+C:\INFO 6250\Finalproject\website\FinalProject.Shared\bin\Debug\netstandard2.0\FinalProject.Shared.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Shared\bin\Debug\netstandard2.0\FinalProject.Shared.pdb
+C:\INFO 6250\Finalproject\website\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.csprojAssemblyReference.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.csproj.CoreCompileInputs.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.AssemblyInfoInputs.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.AssemblyInfo.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Shared\bin\Debug\netstandard2.0\FinalProject.Shared.deps.json
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Shared\bin\Debug\netstandard2.0\FinalProject.Shared.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Shared\bin\Debug\netstandard2.0\FinalProject.Shared.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.csprojAssemblyReference.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.csproj.CoreCompileInputs.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.AssemblyInfoInputs.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.AssemblyInfo.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Shared\obj\Debug\netstandard2.0\FinalProject.Shared.pdb

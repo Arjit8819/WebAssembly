@@ -1,0 +1,116 @@
+﻿@using FinalProject.Shared;
+@page "/makepay/{myvalue}"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+
+<div class="body1">
+@if (user == null)
+{
+    <div class="progress">
+        <div class="indeterminate"></div>
+    </div>
+}
+else
+{
+
+
+    @if (to)
+    {
+        <br><br><br><br><br><br><br><br><br>
+        <center>
+        <div class="col-sm-6">
+        <div class="container center">
+            <input style="color:white" bind="@money" type="text" placeholder="Add the amount of money" />
+            <button class="btn waves-effect blue" type="submit" onclick="@sendbypaypal">Paypal payment</button>
+            <button class="btn waves-effect blue" type="submit" onclick="@sendmoney">Credit/Debit card</button>
+        </div>
+            </div>
+            </center>
+    }
+    @if (from)
+    {
+
+        <h3 style="color:white"> Confirm the payment for : @money</h3>
+        <form class="paypalform" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="upload" value="1">
+            <input type="hidden" name="business" value="arjit9039-facilitator@gmail.com">
+            @foreach (var use in user)
+            {
+                <input type="hidden" name="item_name_@count" value="@use.username">
+                <input type="hidden" name="amount_@count" value="@use.money">
+                count++;
+            }
+
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="http://www.paypal.com/en_US/i/btn/x-click-but01.gif" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+        </form>
+    }
+    @if (by)
+    {
+
+        <input style="color:white" type="text" placeholder="Card UserName" />
+        <input style="color:white" type="text" placeholder="Card number" />
+        <input style="color:white" type="text" placeholder="Last valid day mm/yy" />
+        <input style="color:white" type="text" placeholder="CVV" />
+        <button class="btn waves-effect waves-light" onclick="@pay">Paymoney</button>
+
+
+    }
+    <button class="btn waves-effect waves-light" type="submit" onclick="@back">Back</button>
+}
+
+</div>
+
+@functions
+{
+    int count = 1;
+    User[] user;
+    String money;
+    Boolean to = true;
+    Boolean from;
+    Boolean by;
+
+    [Parameter]
+    private String myvalue { get; set; }
+
+    protected override async Task OnInitAsync()
+    {
+        user = await Http.GetJsonAsync<User[]>("/api/Login/getuse");
+    }
+
+    Boolean a;
+
+
+
+    public async void sendbypaypal()
+    {
+        to = false;
+        from = true;
+        string body = (myvalue + ":" + money);
+
+        a = await Http.SendJsonAsync<Boolean>(HttpMethod.Post, "/api/Login/sendmoney", body);
+
+
+    }
+    public async void pay() {
+
+        string body = (myvalue + ":" + money);
+
+        a = await Http.SendJsonAsync<Boolean>(HttpMethod.Post, "/api/Login/sendmoney", body);
+
+    }
+
+    public void sendmoney()
+    {
+        to = false;
+        by = true;
+
+    }
+    public void back()
+    {
+
+        UriHelper.NavigateTo($"/login/{myvalue}");
+    }
+}

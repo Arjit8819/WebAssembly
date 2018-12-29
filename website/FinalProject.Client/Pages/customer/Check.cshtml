@@ -1,0 +1,120 @@
+﻿@using FinalProject.Shared;
+@page "/check/{myvalue}"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+@*<div style="background-color:darkseagreen">*@
+
+<h1>Check Survey</h1>
+
+@if (user == null)
+{
+    <div class="progress">
+        <div class="indeterminate"></div>
+    </div>
+
+}
+else
+{
+    @if (to)
+    {
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>AppName</th>
+                        <th>Survey</th>
+                        <th>Value</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@user.Appname</td>
+                        <td>@user.Surveyitems</td>
+                        <td>@user.money</td>
+
+                    </tr>
+                </tbody>
+            </table>
+            <button class="btn waves-effect waves-light" onclick="@change"> See this survey</button>
+        </div>
+    }
+    if (from)
+    {
+
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Survey Name</th>
+                        <th>Result</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var use in items)
+                    {
+                        if (user.Survey)
+                        {
+                            <tr>
+                                <td>@use</td>
+                                <td>@newrand</td>
+                            </tr>
+
+                            Convert();
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    <button  class="btn waves-effect waves-light" onclick="@back">Back</button>
+
+}
+    
+
+@*</div>*@
+@functions
+{
+    [Parameter]
+    private String myvalue { get; set; }
+
+    User user;
+    User userok;
+    Boolean to = true;
+    Boolean from = false;
+    String[] items;
+    Random random = new Random();
+    double newrand;
+    protected override async Task OnInitAsync()
+    {
+        user = await Http.SendJsonAsync<User>(HttpMethod.Post, "/api/Login/getspeuser", myvalue);
+        Console.WriteLine("!!!" + user.Survey);
+
+    }
+    public async void change()
+    {
+        int randint = random.Next(7, 8);
+
+        newrand = (double)33 / randint;
+
+        items = await Http.SendJsonAsync<String[]>(HttpMethod.Post, "/api/Login/getsurveylist", myvalue); ;
+        to = false;
+        from = true;
+
+    }
+
+    public void Convert()
+    {
+
+        int randint = random.Next(7, 19);
+
+        newrand = (double)33 / randint;
+    }
+    public void back() {
+
+        UriHelper.NavigateTo($"/login/{myvalue}");
+    }
+}

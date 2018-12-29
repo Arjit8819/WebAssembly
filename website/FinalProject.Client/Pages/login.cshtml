@@ -1,0 +1,142 @@
+﻿@using FinalProject.Shared;
+@page "/login/{myvalue}"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+
+
+@if (to)
+{
+    @if (user == null)
+    {
+        <h5>Loding...</h5>
+    }
+    else
+    {
+
+        <nav>
+            <div class="nav-wrapper grey darken-4 ">
+                <a href="#" class="brand-logo"><img class="circle" height="50" width="50" src="/css/image/batman.jpg" />Gaming</a>
+
+
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+                    <li>
+
+                        <NavLink  href=@("/addinfo/" + user.username)>
+                            <img class="circle" height="40" width="40" src=@user.image />
+                            @user.yourname
+                        </NavLink>
+
+                    </li>
+
+                    <li><p>
+    Money left : @user.money
+    &nbsp; &nbsp;
+    @user.Appname &nbsp; &nbsp;
+</p></li>
+                    <li><NavLink href="/">Logout</NavLink></li>
+
+                </ul>
+            </div>
+        </nav>
+
+        @*<h5>@user.Surveyitems</h5>*@
+        <div class="container pull-right body1" >
+        <br>
+        <br>
+        <button class="btn btn-primary blue" style ="margin:auto" onclick="@createapp">Register Game</button>
+        <br>
+        <br>
+        <button class="btn btn-primary blue" type="submit" onclick="@start">Upload/survey</button>
+        <br>
+        <br>
+        <button class="btn btn-primary blue" type="submit" onclick="@check">Check survey</button>
+        <br>
+        <br>
+        <button class="btn btn-primary blue" type="submit" onclick="@payment">Make payment</button>
+        </div>
+    }
+}
+
+@if (info)
+{
+    <div class="row">
+        <info />
+        <button class="blue"  onclick="@back">back</button>
+    </div>
+
+
+
+}
+
+
+@functions
+{
+    [Parameter]
+    private String myvalue { get; set; }
+
+    User user;
+    Boolean to = true;
+    Boolean from = false;
+    Boolean info;
+    String appname;
+    Boolean a;
+    User arj;
+    String username;
+
+
+    protected override async Task OnInitAsync()
+    {
+ 
+        user = await Http.SendJsonAsync<User>(HttpMethod.Post, "/api/Login/getspeuser", myvalue);
+    
+
+    
+
+    }
+    public void check()
+    {
+        UriHelper.NavigateTo($"/check/{myvalue}");
+    }
+
+    public void payment()
+    {
+        UriHelper.NavigateTo($"/makepay/{myvalue}");
+    }
+
+    public void start()
+    {
+        UriHelper.NavigateTo($"/create/{user.username}");
+
+    }
+
+    public void updateinfo()
+    {
+        info = true;
+        to = false;
+
+    }
+
+    public async void back()
+    {
+        user = await Http.SendJsonAsync<User>(HttpMethod.Post, "/api/Login/getspeuser", myvalue);
+        to = true;
+        info = false;
+
+    }
+
+
+    public void createapp()
+    {
+
+        UriHelper.NavigateTo($"/createapp/{myvalue}");
+
+    }
+
+
+    public void changeinfo() {
+
+        UriHelper.NavigateTo($"/addinfo/{myvalue}");
+    }
+}

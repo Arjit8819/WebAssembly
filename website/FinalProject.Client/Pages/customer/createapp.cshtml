@@ -1,0 +1,58 @@
+﻿@using FinalProject.Shared;
+@page "/createapp/{myvalue}"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+@*<div  style="background-color:darkseagreen">*@
+<div class="body3">
+    <br><br><br><br><br><br><br>
+    <center>
+
+        <div class="container">
+            <div class="col-sm-6">
+                <div class="input-field col s6">
+                    <input style="color:white" bind="@appname" type="text" />
+                    <label for="Appname">Game Name</label>
+                    @*<button onclick="@options">Submit</button>*@
+
+                    <button class="btn waves-effect waves-light" type="submit" onclick="@options">
+                        Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                    <button class="btn waves-effect waves-light" type="submit" onclick="@openback">
+
+                        <i class="material-icons right"><</i>back
+                    </button>
+                </div>
+            </div>
+        </div>
+    </center>
+    </div>
+    @*</div>*@
+
+    @functions
+    {
+
+    [Parameter]
+    private String myvalue { get; set; }
+
+    String appname;
+
+    Boolean a;
+
+    public async void options()
+    {
+
+        string body = (myvalue + ":" + appname);
+
+        a = await Http.SendJsonAsync<Boolean>(HttpMethod.Post, "/api/Login/appname", body);
+
+    }
+
+    public void openback()
+    {
+
+        UriHelper.NavigateTo($"/login/{myvalue}");
+    }
+
+    }

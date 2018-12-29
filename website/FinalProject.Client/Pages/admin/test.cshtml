@@ -1,0 +1,55 @@
+﻿@using FinalProject.Shared;
+@page "/test"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+<div class="px-4">
+
+    @if (user == null) {
+        <h5>loding..</h5>
+    }
+    @if (user != null)
+    {
+ 
+
+        @foreach (var item in user)
+        {
+            <div class="mb-4 d-flex align-items-center">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex align-items-center">
+                      @item.username
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                      @item.password
+                    </li>
+                </ul>
+                <div class="price ml-3">
+                    <h3>@item.username</h3>
+                    @*<button class="btn" onclick=@(() => OnAddItinerary(item))>Add</button>*@
+                </div>
+            </div>
+        }
+    }
+</div>
+
+@functions
+{
+    // Parameters
+    User[] user;
+
+    protected override async Task OnInitAsync()
+    {
+        user = await Http.GetJsonAsync<User[]>("/api/Login/getuse");
+    }
+
+    //[Parameter] Action<Itinerary> OnAddItinerary { get; set; }
+
+    // Private state
+    //private SortOrder chosenSortOrder;
+    //private IEnumerable<Itinerary> sortedItineraries
+    //    => chosenSortOrder == SortOrder.Price
+    //    ? Itineraries.OrderBy(x => x.Price)
+    //    : Itineraries.OrderBy(x => x.TotalDurationHours);
+
+    enum SortOrder { Price, Duration }
+}

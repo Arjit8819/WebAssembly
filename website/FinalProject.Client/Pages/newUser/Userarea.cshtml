@@ -1,0 +1,97 @@
+﻿@using FinalProject.Shared;
+@page "/userarea/{myvalue}"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+
+
+@if (user == null)
+{
+    <p><em>Loding ....</em></p>
+}
+else
+{
+
+    <nav>
+        <div class="nav-wrapper grey darken-4 ">
+            <a href="#" class="brand-logo"><h5>My app</h5></a>
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><NavLink href="/">Logout</NavLink></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="body1">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th style="color:white">UserNAme</th>
+                    <th style="color:white">App name</th>
+                    <th style="color:white">Game Image</th>
+                    <th style="color:white">Game </th>
+                    <th style="color:white"> Start Survey </th>
+
+
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var use in user)
+                {
+
+                   
+                    <tr>
+                        <td style="color:white">@use.username</td>
+
+                        <td style="color:white">@use.Appname</td>
+                        <td><img class="circle" height="40" width="40" src=@use.image /></td>
+                        <td><a href="@use.gamelink" target="_blank">Click To Play</a></td>
+
+
+                        <td><button class="btn waves-effect waves-light" onclick=@(() => resolve(use.username))>Give Feedback</button></td>
+                        
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+
+}
+
+@functions
+{
+    [Parameter]
+    private String myvalue { get; set; }
+
+    User[] user;
+    Boolean test;
+    Viewer viewer;
+    Boolean to = true;
+    Boolean from;
+
+    protected override async Task OnInitAsync()
+    {
+        // viewer = await Http.SendJsonAsync<Viewer>(HttpMethod.Post, "/api/NewUser/getspeuser", myvalue);
+        user = await Http.GetJsonAsync<User[]>("/api/Login/getuse");
+    }
+
+    public async void getsurvey()
+    {
+        to = false;
+        from = true;
+
+        String way = viewer.email;
+
+        user = await Http.SendJsonAsync<User[]>(HttpMethod.Post, "/api/Login/getsurveyuser", way);
+    }
+
+    public void resolve(String myvalue)
+    {
+
+        UriHelper.NavigateTo($"/viewsurvey/{myvalue}");
+    }
+
+
+}

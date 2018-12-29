@@ -1,0 +1,294 @@
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Client.blazor.config
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Client.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Client.pdb
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\FinalProject.Client.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\FinalProject.Shared.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.AspNetCore.Blazor.Browser.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.AspNetCore.Blazor.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.AspNetCore.Blazor.TagHelperWorkaround.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.Extensions.DependencyInjection.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.JSInterop.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Mono.WebAssembly.Interop.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\mscorlib.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\System.Core.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\System.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\System.Net.Http.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\wasm\mono.js
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\wasm\mono.wasm
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\blazor.server.js
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\blazor.webassembly.js
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\FinalProject.Client.pdb
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\FinalProject.Shared.pdb
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\blazor.boot.json
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Blazor.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Blazor.Browser.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Blazor.TagHelperWorkaround.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.JSInterop.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\Mono.WebAssembly.Interop.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Shared.dll
+C:\INFO 6250\Project2\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Shared.pdb
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.csprojAssemblyReference.cache
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.csproj.CoreCompileInputs.cache
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Blazor.inputs.txt
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\App.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\Index.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\_ViewImports.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\BlazorTemp\FinalProject.Client.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Blazor.components.input.cache
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Blazor.definition.components.json
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\App.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\Index.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\_ViewImports.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.AssemblyInfoInputs.cache
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.AssemblyInfo.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.csproj.CopyComplete
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.pdb
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.linkerswitch.cache
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.basic.cache
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.copylocal.txt
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker.descriptor.xml
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.linker.cache
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linked.assemblies.txt
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\FinalProject.Client.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\FinalProject.Shared.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.Browser.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.TagHelperWorkaround.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.Extensions.DependencyInjection.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.JSInterop.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Mono.WebAssembly.Interop.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\mscorlib.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\System.Core.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\System.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\System.Net.Http.dll
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\FinalProject.Client.pdb
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\FinalProject.Shared.pdb
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.bootjson.cache
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\blazor\blazor.boot.json
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\login.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\login.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\first.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\first.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\admin.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\adminarea.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\admin.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\adminarea.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\Check.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\createsurvey.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\makePayment.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\Check.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\createsurvey.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\makePayment.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\test.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\test.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\userlogin.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\userlogin.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\Userarea.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\Userarea.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\info.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\info.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\createapp.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\createapp.g.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\viewsurvey.g.i.cs
+C:\INFO 6250\Project2\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\viewsurvey.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Client.blazor.config
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Client.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Client.pdb
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\FinalProject.Client.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\FinalProject.Shared.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.AspNetCore.Blazor.Browser.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.AspNetCore.Blazor.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.AspNetCore.Blazor.TagHelperWorkaround.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.Extensions.DependencyInjection.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.JSInterop.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Mono.WebAssembly.Interop.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\mscorlib.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\System.Core.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\System.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\System.Net.Http.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\wasm\mono.js
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\wasm\mono.wasm
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\blazor.server.js
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\blazor.webassembly.js
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\FinalProject.Client.pdb
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\FinalProject.Shared.pdb
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\blazor.boot.json
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Blazor.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Blazor.Browser.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Blazor.TagHelperWorkaround.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.JSInterop.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\Mono.WebAssembly.Interop.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Shared.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Shared.pdb
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.csprojAssemblyReference.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.csproj.CoreCompileInputs.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Blazor.inputs.txt
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\App.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\admin.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\adminarea.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\test.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\Check.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\createapp.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\createsurvey.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\info.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\makePayment.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\first.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\Index.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\login.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\Userarea.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\userlogin.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\viewsurvey.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\_ViewImports.g.i.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\BlazorTemp\FinalProject.Client.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Blazor.components.input.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Blazor.definition.components.json
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\App.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\admin.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\adminarea.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\test.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\Check.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\createapp.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\createsurvey.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\info.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\makePayment.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\first.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\Index.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\login.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\Userarea.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\userlogin.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\viewsurvey.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\_ViewImports.g.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.AssemblyInfoInputs.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.AssemblyInfo.cs
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.csproj.CopyComplete
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.pdb
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.linkerswitch.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.basic.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.copylocal.txt
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker.descriptor.xml
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.linker.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linked.assemblies.txt
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\FinalProject.Client.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\FinalProject.Shared.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.Browser.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.TagHelperWorkaround.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.Extensions.DependencyInjection.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.JSInterop.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Mono.WebAssembly.Interop.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\mscorlib.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\System.Core.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\System.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\System.Net.Http.dll
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\FinalProject.Client.pdb
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\FinalProject.Shared.pdb
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.bootjson.cache
+C:\INFO 6250\Finalproject\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\blazor.boot.json
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Client.blazor.config
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Client.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Client.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\FinalProject.Client.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\FinalProject.Shared.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.AspNetCore.Blazor.Browser.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.AspNetCore.Blazor.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.AspNetCore.Blazor.TagHelperWorkaround.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.Extensions.DependencyInjection.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Microsoft.JSInterop.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Mono.WebAssembly.Interop.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\mscorlib.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\System.Core.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\System.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\System.Net.Http.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\wasm\mono.js
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\wasm\mono.wasm
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\blazor.server.js
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\blazor.webassembly.js
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\FinalProject.Client.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\_bin\FinalProject.Shared.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\dist\_framework\blazor.boot.json
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Blazor.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Blazor.Browser.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Blazor.TagHelperWorkaround.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\Microsoft.JSInterop.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\Mono.WebAssembly.Interop.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Shared.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\bin\Debug\netstandard2.0\FinalProject.Shared.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.csprojAssemblyReference.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.csproj.CoreCompileInputs.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Blazor.inputs.txt
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\App.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\admin.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\adminarea.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\test.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\Check.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\createapp.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\createsurvey.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\info.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\makePayment.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\first.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\Index.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\login.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\Userarea.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\userlogin.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\viewsurvey.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\_ViewImports.g.i.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\BlazorTemp\FinalProject.Client.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Blazor.components.input.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Blazor.definition.components.json
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\App.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\admin.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\adminarea.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\admin\test.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\Check.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\createapp.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\createsurvey.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\info.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\customer\makePayment.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\first.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\Index.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\login.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\Userarea.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\userlogin.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\Pages\newUser\viewsurvey.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\_ViewImports.g.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.AssemblyInfoInputs.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.AssemblyInfo.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.csproj.CopyComplete
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\FinalProject.Client.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.linkerswitch.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.basic.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.copylocal.txt
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker.descriptor.xml
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.linker.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linked.assemblies.txt
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\FinalProject.Client.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\FinalProject.Shared.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.Browser.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.TagHelperWorkaround.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.Extensions.DependencyInjection.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.JSInterop.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\Mono.WebAssembly.Interop.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\mscorlib.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\System.Core.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\System.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\System.Net.Http.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\FinalProject.Client.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\linker\FinalProject.Shared.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\inputs.bootjson.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\website\FinalProject.Client\obj\Debug\netstandard2.0\blazor\blazor.boot.json

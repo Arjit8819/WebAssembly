@@ -1,0 +1,71 @@
+﻿@using FinalProject.Shared;
+@page "/index"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+@*<div class="login">
+    <div class="form">
+        <form class="register">*@
+
+        <div class="body">
+            <br><br><br>
+            <div class="form">
+                <input bind="@name" type="text" placeholder="firstname" />
+                <input bind="@pass" type="text" placeholder="password" />
+                <button onclick="@Adduser">Signup</button>
+                @*</form>
+            <form class="register">*@
+                <br><br>
+                <input bind="@namecheck" type="text" placeholder="firstname" />
+                <input bind="@passcheck" type="text" placeholder="password" />
+                <button onclick="@CheckUse">Signin</button>
+            </div>
+
+        </div>
+        @*</form>
+    </div>
+</div>*@
+
+
+
+@functions
+{
+string name;
+string pass;
+string namecheck;
+string passcheck;
+string wrongpassword = "";
+User use;
+
+public async void CheckUse()
+{
+    String body = (namecheck + ":" + passcheck);
+
+    use = await Http.SendJsonAsync<User>(HttpMethod.Post, "/api/Login/Signin", body);
+
+    if (!use.username.Equals(""))
+    {
+        UriHelper.NavigateTo($"/login/{use.username}");
+    }   
+    else
+    {
+        wrongpassword = "Wrong credentials";
+        namecheck = "";
+        passcheck = "";
+
+
+    }
+
+}
+
+public void Adduser()
+{
+    String body = (name + ":" + pass);
+
+    Http.SendJsonAsync(HttpMethod.Post, "/api/Login/Signup", body);
+    name = "";
+    pass = "";
+}
+
+}
+

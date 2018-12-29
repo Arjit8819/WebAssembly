@@ -1,0 +1,72 @@
+﻿@using FinalProject.Shared;
+@page "/addinfo/{myvalue}"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+@inject HttpClient Http
+
+<div class="body4">
+<div class="settings-page">
+    <div class="container page">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 col-xs-12">
+                <h1 class="text-xs-center" style="color:white">Update Your Profile</h1>
+
+                <form>
+                    <fieldset>
+                        <fieldset class="form-group">
+                            <input style="color : white" class="form-control" type="text" placeholder="URL of profile picture" bind="@image" />
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <input style="color : white" class="form-control form-control-lg" type="text" placeholder="Your Name" bind="@name" />
+                        </fieldset>
+                        @*<fieldset class="form-group">
+                                <textarea class="form-control form-control-lg" rows="8" placeholder="Short bio about you" bind="@(bio)">@bio</textarea>
+                            </fieldset>*@
+                        <fieldset class="form-group">
+                            <input style="color : white" class="form-control form-control-lg" type="email" placeholder="Email" bind="@email" />
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <input style="color : white" class="form-control form-control-lg" type="password" placeholder="Password" bind="@password" />
+                        </fieldset>
+                        <button class="btn btn-lg btn-primary pull-xs-right blue" onclick="@Submit">
+                            Update Settings
+                        </button>
+                        <button class="btn btn-lg btn-primary pull-xs-right blue" onclick="@back">
+                            back
+                            </button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+@functions
+{
+
+    [Parameter]
+    private String myvalue { get; set; }
+
+    Boolean test;
+    String image;
+    String name;
+    String password;
+    String email;
+    User user;
+
+
+    public async void Submit()
+    {
+        String body = (myvalue + ":" + image + ":" + name + ":" + email + ":" + password);
+        Console.WriteLine(myvalue);
+        
+        test = await Http.SendJsonAsync<Boolean>(HttpMethod.Post, "/api/Login/updateinfo", body);
+
+
+    }
+
+    public void back() {
+
+    
+         UriHelper.NavigateTo($"/login/{myvalue}");
+    }
+}

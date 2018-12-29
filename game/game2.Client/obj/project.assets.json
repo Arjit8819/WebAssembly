@@ -664,11 +664,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\INFO 6250\\Finalproject\\game\\game2.Client\\game2.Client.csproj",
+      "projectUniqueName": "C:\\GitRepository\\Webassembly\\Game\\WebAssembly\\game\\game2.Client\\game2.Client.csproj",
       "projectName": "game2.Client",
-      "projectPath": "C:\\INFO 6250\\Finalproject\\game\\game2.Client\\game2.Client.csproj",
+      "projectPath": "C:\\GitRepository\\Webassembly\\Game\\WebAssembly\\game\\game2.Client\\game2.Client.csproj",
       "packagesPath": "C:\\Users\\arjit\\.nuget\\packages\\",
-      "outputPath": "C:\\INFO 6250\\Finalproject\\game\\game2.Client\\obj\\",
+      "outputPath": "C:\\GitRepository\\Webassembly\\Game\\WebAssembly\\game\\game2.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -687,8 +687,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\INFO 6250\\Finalproject\\game\\game2.Shared\\game2.Shared.csproj": {
-              "projectPath": "C:\\INFO 6250\\Finalproject\\game\\game2.Shared\\game2.Shared.csproj"
+            "C:\\GitRepository\\Webassembly\\Game\\WebAssembly\\game\\game2.Shared\\game2.Shared.csproj": {
+              "projectPath": "C:\\GitRepository\\Webassembly\\Game\\WebAssembly\\game\\game2.Shared\\game2.Shared.csproj"
             }
           }
         }

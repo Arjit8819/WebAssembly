@@ -38,3 +38,23 @@ C:\INFO 6250\Finalproject\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server
 C:\INFO 6250\Finalproject\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server.csproj.CopyComplete
 C:\INFO 6250\Finalproject\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server.dll
 C:\INFO 6250\Finalproject\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\bin\Debug\netcoreapp2.1\game2.Client.blazor.config
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\bin\Debug\netcoreapp2.1\game2.Server.deps.json
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\bin\Debug\netcoreapp2.1\game2.Server.runtimeconfig.json
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\bin\Debug\netcoreapp2.1\game2.Server.runtimeconfig.dev.json
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\bin\Debug\netcoreapp2.1\game2.Server.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\bin\Debug\netcoreapp2.1\game2.Server.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\bin\Debug\netcoreapp2.1\game2.Client.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\bin\Debug\netcoreapp2.1\game2.Shared.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\bin\Debug\netcoreapp2.1\game2.Client.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\bin\Debug\netcoreapp2.1\game2.Shared.pdb
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server.csprojAssemblyReference.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server.csproj.CoreCompileInputs.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server.RazorAssemblyInfo.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server.RazorAssemblyInfo.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server.AssemblyInfoInputs.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server.AssemblyInfo.cs
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server.RazorTargetAssemblyInfo.cache
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server.csproj.CopyComplete
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server.dll
+C:\GitRepository\Webassembly\Game\WebAssembly\game\game2.Server\obj\Debug\netcoreapp2.1\game2.Server.pdb
